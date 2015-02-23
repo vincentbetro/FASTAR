@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921F9097115938290042309B /* create_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F908C115938290042309B /* create_tree.cpp */; };
+		921F9098115938290042309B /* FV_routines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F908D115938290042309B /* FV_routines.cpp */; };
+		921F9099115938290042309B /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F908E115938290042309B /* geometry.cpp */; };
+		921F909A115938290042309B /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F908F115938290042309B /* List.cpp */; };
+		921F909B115938290042309B /* nabor_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F9090115938290042309B /* nabor_search.cpp */; };
+		921F909C115938290042309B /* P_CGNS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F9091115938290042309B /* P_CGNS.cpp */; };
+		921F909D115938290042309B /* smooth_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F9092115938290042309B /* smooth_io.cpp */; };
+		921F909E115938290042309B /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F9093115938290042309B /* sort.cpp */; };
+		921F909F115938290042309B /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F9094115938290042309B /* Util.cpp */; };
+		921F90A71159389C0042309B /* FASTAR_WRAP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F90A51159389C0042309B /* FASTAR_WRAP.cpp */; };
+		921F90A81159389C0042309B /* FASTAR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921F90A61159389C0042309B /* FASTAR.cpp */; };
+		9229A4331178A9C000662DDC /* svdcmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9229A4321178A9C000662DDC /* svdcmp.cpp */; };
+		927961F3117CDE3E00AF2B0A /* trimesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 927961F2117CDE3E00AF2B0A /* trimesh.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		921F908C115938290042309B /* create_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = create_tree.cpp; sourceTree = "<group>"; };
+		921F908D115938290042309B /* FV_routines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FV_routines.cpp; sourceTree = "<group>"; };
+		921F908E115938290042309B /* geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geometry.cpp; sourceTree = "<group>"; };
+		921F908F115938290042309B /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		921F9090115938290042309B /* nabor_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nabor_search.cpp; sourceTree = "<group>"; };
+		921F9091115938290042309B /* P_CGNS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P_CGNS.cpp; sourceTree = "<group>"; };
+		921F9092115938290042309B /* smooth_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smooth_io.cpp; sourceTree = "<group>"; };
+		921F9093115938290042309B /* sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		921F9094115938290042309B /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		921F90A51159389C0042309B /* FASTAR_WRAP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FASTAR_WRAP.cpp; sourceTree = "<group>"; };
+		921F90A61159389C0042309B /* FASTAR.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FASTAR.cpp; sourceTree = "<group>"; };
+		921F90ED115966500042309B /* FASTAR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FASTAR; sourceTree = BUILT_PRODUCTS_DIR; };
+		9229A4321178A9C000662DDC /* svdcmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svdcmp.cpp; sourceTree = "<group>"; };
+		927961F2117CDE3E00AF2B0A /* trimesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trimesh.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* FASTAR */ = {
+			isa = PBXGroup;
+			children = (
+				927961F2117CDE3E00AF2B0A /* trimesh.cpp */,
+				9229A4321178A9C000662DDC /* svdcmp.cpp */,
+				921F90A51159389C0042309B /* FASTAR_WRAP.cpp */,
+				921F90A61159389C0042309B /* FASTAR.cpp */,
+				921F908C115938290042309B /* create_tree.cpp */,
+				921F908D115938290042309B /* FV_routines.cpp */,
+				921F908E115938290042309B /* geometry.cpp */,
+				921F908F115938290042309B /* List.cpp */,
+				921F9090115938290042309B /* nabor_search.cpp */,
+				921F9091115938290042309B /* P_CGNS.cpp */,
+				921F9092115938290042309B /* smooth_io.cpp */,
+				921F9093115938290042309B /* sort.cpp */,
+				921F9094115938290042309B /* Util.cpp */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = FASTAR;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921F90ED115966500042309B /* FASTAR */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* FASTAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "FASTAR" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FASTAR;
+			productInstallPath = "$(HOME)/bin";
+			productName = FASTAR;
+			productReference = 921F90ED115966500042309B /* FASTAR */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "FASTAR" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* FASTAR */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* FASTAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921F9097115938290042309B /* create_tree.cpp in Sources */,
+				921F9098115938290042309B /* FV_routines.cpp in Sources */,
+				921F9099115938290042309B /* geometry.cpp in Sources */,
+				921F909A115938290042309B /* List.cpp in Sources */,
+				921F909B115938290042309B /* nabor_search.cpp in Sources */,
+				921F909C115938290042309B /* P_CGNS.cpp in Sources */,
+				921F909D115938290042309B /* smooth_io.cpp in Sources */,
+				921F909E115938290042309B /* sort.cpp in Sources */,
+				921F909F115938290042309B /* Util.cpp in Sources */,
+				921F90A71159389C0042309B /* FASTAR_WRAP.cpp in Sources */,
+				921F90A81159389C0042309B /* FASTAR.cpp in Sources */,
+				9229A4331178A9C000662DDC /* svdcmp.cpp in Sources */,
+				927961F3117CDE3E00AF2B0A /* trimesh.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/TETGEN,
+					/usr/local,
+					"/Users/vincentbetro/Documents/school-sim/phd/FASTAR/FASTAR/include",
+					/usr/local/SPACING_FIELD,
+					/usr/local/OCTREE_LIBRARY,
+					/usr/local/hdf5/include,
+					/usr/local/metis,
+					/usr/local/include,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/TETGEN,
+					/usr/local,
+					/usr/local/SPACING_FIELD,
+					/usr/local/OCTREE_LIBRARY,
+					/usr/local/hdf5/lib,
+					/usr/local/metis,
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DMACVERSION",
+					"-D_DEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = (
+					"-ltet",
+					"-loctree",
+					"-lSpaceField",
+					"-lcgns",
+					"-lmetis",
+					"-lmpi",
+					"-lhdf5",
+				);
+				PRODUCT_NAME = FASTAR;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/TETGEN,
+					/usr/local,
+					"/Users/vincentbetro/Documents/school-sim/phd/FASTAR/FASTAR/include",
+					/usr/local/SPACING_FIELD,
+					/usr/local/OCTREE_LIBRARY,
+					/usr/local/hdf5/include,
+					/usr/local/metis,
+					/usr/local/include,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/TETGEN,
+					/usr/local,
+					/usr/local/SPACING_FIELD,
+					/usr/local/OCTREE_LIBRARY,
+					/usr/local/hdf5/lib,
+					/usr/local/metis,
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DMACVERSION",
+					"-D_DEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = (
+					"-ltet",
+					"-loctree",
+					"-lSpaceField",
+					"-lcgns",
+					"-lmetis",
+					"-lmpi",
+					"-lhdf5",
+				);
+				PRODUCT_NAME = FASTAR;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "FASTAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "FASTAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
